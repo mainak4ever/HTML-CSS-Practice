@@ -1,0 +1,304 @@
+.app{
+    /* min-height: 900px; */
+    width: 99%;
+    margin-left: 0.5%;
+    /* border: 2px solid rgb(26, 189, 148); */
+    background: rgba(12, 36, 63, 0.925);
+    
+}
+
+.header{
+    height: 80px;
+    width: 100%;
+    background: rgb(22, 111, 194);
+    color: aliceblue;
+    border-bottom:15px solid rgb(255, 253, 253);
+
+}
+
+.left-head{
+    height: 80px;
+	width:60%;
+	float: left;
+    /* background: yellow; */
+}
+
+.logo{
+    width: auto;
+    height: 60px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.search-container{
+    float: right;
+}
+.search-container form {
+  margin-top: 20px;
+  background-color: #ffffff;
+  width: 400px;
+  height: 44px;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  opacity: 0.5;
+}
+.search-container input {
+    all: unset;
+    font: 16px system-ui;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    padding: 6px 10px;
+}
+.search-container ::placeholder{
+    color: #646262;
+    /* opacity: 0.7; */
+}
+.search-container button {
+    all: unset;
+    cursor: pointer;
+    width: 44px;
+    height: 44px;
+}
+.search-container svg {
+    color: #646262;
+    fill: currentColor;
+    width: 24px;
+    height: 24px;
+    padding: 10px;
+  }
+
+.right-head{
+    float: right;
+    margin-right: 30px;
+	padding: 5px 5px 0 0;
+	text-align: left; 
+}
+
+.top-menu{
+	list-style: none;
+}
+
+.top-menu li{
+	display: inline;
+	margin-left:20px;
+}
+
+a{
+	text-decoration: none;
+	color:#fff;
+    font-size: 25px;
+    font-family: Calibri;
+}
+
+a:hover{
+    color:#d4ddd9e0;
+    text-decoration:underline;
+}
+
+
+.main{
+    /* height: 780px; */
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+.footer{
+	height: 60px;
+	width: 100%;
+    border-top:15px solid rgb(255, 253, 253);
+	background: rgb(190, 190, 190);
+	text-align: center;
+    margin-top: 20px;
+}
+.footer a:hover{
+    color:rgb(27, 39, 36);
+    text-decoration:underline;
+}
+/* .footer a:visited{
+    color:rgb(36, 223, 176);
+} */
+.bottom-menu{
+	list-style: none;
+}
+.bottom-menu li{
+	display: inline;
+	margin-left:10px;
+
+}
+
+.foot-color{
+    margin-left: 20px;
+    font-size: 22px;
+    color: rgb(27, 39, 36);
+}
+
+.heading{
+	font-weight: bold;
+	font-size: 60px;
+    height: 85px;
+	color: rgba(247, 248, 250, 0.911);
+	text-align: center;
+    /* text-decoration:underline; */
+    font-family: Calibri;
+    letter-spacing: 3px;
+    background: rgba(167, 221, 217, 0.342);
+}
+
+.first_para{
+    height:250px;
+	width: 95%;
+    margin-left: 2.50%;
+    border-radius:0 70px 0 70px;
+    background: rgb(53, 145, 206);
+    /* border: 3px groove rgb(76, 183, 202); */
+}
+
+.float_left{
+    width: 300px;
+	height: 200px;
+    margin-top: 20px;
+    margin-left:30px ;
+	margin-right:30px ;
+    border-radius:50px 0px 50px 50px;
+	float:left;
+}
+
+.first_para img{
+    transition: transform 1.25s;
+}
+.first_para img:hover{
+    transform: scale(1.2);
+}
+
+.Fund_Bitc{
+    font-weight: bold;
+	font-size: 30px;
+	color: rgb(248, 246, 246);
+    word-spacing: 4px;
+    font-family: Calibri;
+	text-align: left;
+}
+.Fund_Bitc_txt{
+    height: 180px;
+    margin-top: 10px;
+    margin-left: 360px ;
+    margin-right: 30px;
+    border-radius:0px 30px 50px 50px;
+    background: rgba(0, 0, 0, 0.253) ;
+    border: 2px solid rgba(232, 235, 238, 0.795);
+    color: #ffffffd0;
+    font-size: 19px;
+    font-family: Calibri;
+    overflow: auto;
+}
+.txt_margin{
+    padding: 0px 20px 0px 20px;
+}
+
+.Fund_Bitc a{
+    background-image: linear-gradient(to right, rgba(255,255,255,0) 50%, #00000083 50%);
+    background-position: -0% 0;
+    background-size: 200% auto;
+    /* background-repeat: no-repeat; */
+    color: rgba(250, 251, 252, 0.932);
+    font-size:30px;
+    text-decoration: none;
+    transition: background-position 0.25s ease-out;
+}
+.Fund_Bitc a:hover {
+    background-position: -99.99% 0;
+}
+
+.second_para{
+    height:250px;
+	width: 95%;
+    margin-left: 2.50%;
+    border-radius:70px 70px 70px 70px;
+    background: rgb(134, 195, 211);
+}
+.float_right{
+    width: 300px;
+	height: 200px;
+    /* margin-top: 20px;
+    margin-left:30px ;
+	margin-right:30px ; */
+    border-radius:0px 50px 50px 50px;
+	float:right;
+    
+}
+.over_flow{
+    width: 300px;
+	height: 200px;
+    float:right;
+    margin-top: 10px;
+    margin-left:20px ;
+	margin-right:20px ;
+    padding: 10px 10px 0px 10px;
+    border-radius:0px 50px 50px 50px;
+    /* overflow: hidden; */
+}
+.second_para img{
+    
+    transition: 0.8s all ease-in-out;
+    
+    /* transition: transform 1.25s; */
+}
+.second_para img:hover{
+    transform: scale(1.2);
+    
+    
+}
+.centralized{
+    font-weight: bold;
+	font-size: 30px;
+	color: rgba(12, 36, 63, 0.747);
+    word-spacing: 4px;
+    font-family: Calibri;
+	text-align: right;
+}
+.centralized_txt{
+    height: 180px;
+    margin-top: 10px;
+    margin-left: 30px ;
+    margin-right: 360px;
+    background: rgba(83, 83, 83, 0.116) ;
+    border: 2px solid rgb(15, 65, 122);
+    border-radius:30px 0px 50px 50px;
+    color: rgba(12, 36, 63, 0.747);
+    font-size:19px;
+    font-family: Calibri;
+    overflow: auto;
+    /* transition: background-color 2s ease-out 100ms  */
+}
+/* .centralized_txt :hover{
+     background-color: rgb(255, 255, 255) ;  
+} */
+.centralized a{
+    background-image: linear-gradient(to right, rgba(255,255,255,0) 50%, #2d30305e 50%);
+    background-position: -0% 0;
+    background-size: 200% auto;
+    /* background-repeat: no-repeat; */
+    color: rgba(12, 36, 63, 0.932);
+    font-size:30px;
+    text-decoration: none;
+    transition: background-position 0.25s ease-out;
+}
+.centralized a:hover {
+    background-position: -99.99% 0;
+}
+
+/* .backcheck{
+    width: 200px;
+    height: 200px;
+    background-image: linear-gradient(to right, rgba(255,255,255,0) 50% , #2d30305e 50%) ;
+    background-position: 0% 0;
+    background-size: 200% auto;
+    background-repeat: no-repeat;
+    transition: background-position 0.5s ease-out;
+}
+.backcheck:hover{
+    background-position: 99.99% 0;
+} */
